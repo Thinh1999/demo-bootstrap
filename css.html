@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Profile Card</title>
+ 
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e0f2fe;
+      }
+ 
+      .profile-card {
+        width: 360px;
+        margin: 60px auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+      }
+ 
+      .avatar {
+        width: 150px;
+        height: auto;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #2563eb;
+      }
+ 
+      h1 {
+        font-size: 26px;
+        color: #0f172a;
+        margin-bottom: 8px;
+      }
+ 
+      .role {
+        color: #64748b;
+        margin-bottom: 20px;
+      }
+      .skills {
+        margin: 20px 0;
+      }
+ 
+      .skill {
+        display: inline-block;
+        background-color: #dbeafe;
+        color: #1d4ed8;
+        padding: 8px 12px;
+        margin: 5px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+ 
+      button {
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+ 
+      button:hover {
+        background-color: #0046df;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img class="avatar" src="avt.png" alt="Ảnh Đại diện" />
+ 
+      <h1>Nguyễn Nhựt Thịnh</h1>
+      <p class="role">Sinh viên Khoa Công nghệ Thông tin</p>
+ 
+      <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+      </div>
+ 
+      <button>Xem hồ sơ</button>
+    </div>
+  </body>
+</html>
